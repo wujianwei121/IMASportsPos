@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_bar_height">55dip</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!-- 自定义全局变量 -->
+    <dimen name="custom_text_size_ss">10sp</dimen>
+    <dimen name="custom_text_size_s">12sp</dimen>
+    <dimen name="custom_text_size_n">16sp</dimen>
+    <dimen name="custom_text_size_y">13sp</dimen>
+    <dimen name="custom_text_size_yn">14sp</dimen>
+    <dimen name="custom_text_size_nl">18sp</dimen>
+    <dimen name="custom_text_size_20sp">20sp</dimen>
+    <dimen name="custom_text_size_l">22sp</dimen>
+    <dimen name="custom_text_size_xl">24sp</dimen>
+    <dimen name="custom_text_size_xxl">36sp</dimen>
+    <dimen name="custom_text_size_xxxl">45sp</dimen>
+    <dimen name="margin_view_size_ss">2dip</dimen>
+    <dimen name="margin_view_size_sss">3dip</dimen>
+    <dimen name="margin_view_size_s">5dip</dimen>
+    <dimen name="margin_view_size_n">8dip</dimen>
+    <dimen name="margin_view_size_nn">10dip</dimen>
+    <dimen name="margin_view_size_nl">10dip</dimen>
+    <dimen name="margin_view_size_l">15dip</dimen>
+    <dimen name="margin_view_size_x">18dip</dimen>
+    <dimen name="margin_view_size_xl">20dip</dimen>
+    <dimen name="margin_view_size_xxl">22dip</dimen>
+    <dimen name="margin_view_size_xxl_s">30dip</dimen>
+    <dimen name="height_view_size_xxl_s">35dip</dimen>
+    <dimen name="height_view_size_l">50dip</dimen>
+    <dimen name="height_view_size_nl">55dip</dimen>
+    <dimen name="custom_horizontal_height_ss">25dip</dimen>
+    <dimen name="custom_horizontal_height_s">40dip</dimen>
+    <dimen name="custom_horizontal_height_sl">45dip</dimen>
+    <dimen name="custom_horizontal_height_n">35dip</dimen>
+    <dimen name="custom_horizontal_height_l">50dip</dimen>
+    <dimen name="custom_horizontal_height_nl">55dip</dimen>
+    <dimen name="custom_horizontal_height_xl">60dip</dimen>
+    <dimen name="custom_horizontal_height_xxl">90dip</dimen>
+    <dimen name="custom_horizontal_width_s">150dip</dimen>
+    <dimen name="custom_horizontal_width_n">200dip</dimen>
+    <dimen name="custom_horizontal_width_l">250dip</dimen>
+    <dimen name="scan_goods_by_camera_info_text_size">16sp</dimen>
+    <dimen name="quick_tab_padding_size_5dp">5dp</dimen>
+    <dimen name="padding_size_10dp">10dp</dimen>
+    <dimen name="common_line_height">1px</dimen>
+    <!-- 会员头像 -->
+    <dimen name="vip_img_width">45dp</dimen>
+    <dimen name="vip_img_height">45dp</dimen>
+    <dimen name="vip_img_top">8dp</dimen>
+    <!-- 拍照 -->
+    <dimen name="camera_item_height">48dp</dimen>
+    <dimen name="camera_item_padding">6dp</dimen>
+    <dimen name="camera_item_font">18sp</dimen>
+
+
+
+    <!-- 自定义全局变量 -->
+    <!--hmz-->
+    <dimen name="height_50dp">50dp</dimen>
+
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_15dp">15dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+
+    <dimen name="padding_2dp">2dp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="padding_14dp">14dp</dimen>
+    <dimen name="padding_20dp">20dp</dimen>
+
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="text_size_15sp">15sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_22sp">22sp</dimen>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?><!--加载条-->
+<com.example.framwork.widget.ProgressActivity xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/progressActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.framwork.widget.superrecyclerview.recycleview.SuperRecyclerView
+        android:id="@+id/rv_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent" />
+</com.example.framwork.widget.ProgressActivity>

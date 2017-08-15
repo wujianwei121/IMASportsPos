@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/space_10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_order_num"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="订单编号:99999999999999" />
+
+        <TextView
+            android:id="@+id/tv_order_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="已取消" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_10">
+
+        <ImageView
+            android:id="@+id/iv_course"
+            android:layout_width="@dimen/space_100"
+            android:layout_height="@dimen/space_100"
+            android:layout_marginRight="@dimen/space_10"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_default" />
+
+        <TextView
+            android:id="@+id/tv_course_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_course"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textSize="@dimen/font_size_18"
+            tools:text="课程名称课程名称课程名称课程名称课程名称课程名称" />
+
+        <TextView
+            android:id="@+id/tv_course_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/iv_course"
+            android:layout_toRightOf="@id/iv_course"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="10次课" />
+
+        <TextView
+            android:id="@+id/tv_course_pice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/iv_course"
+            android:layout_alignParentRight="true"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/red"
+            tools:text="￥ 100.00" />
+
+    </RelativeLayout>
+</LinearLayout>

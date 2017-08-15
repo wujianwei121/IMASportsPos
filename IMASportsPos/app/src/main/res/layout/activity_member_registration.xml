@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_main_member_enter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_grey"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <com.imasports.pos.widget.CustomInfoEditTextView
+            android:id="@+id/et_member_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/space_10"
+            app:cie_edit_hint="@string/memaber_name_hint"
+            app:cie_edit_text_inputtype="none"
+            app:cie_edit_text_length="6"
+            app:cie_edit_textcolor="@color/gary_82"
+            app:cie_editable="true"
+            app:cie_mandatory_visibility="visible"
+            app:cie_prompt_text="用户姓名"
+            app:cie_show_arrow="false" />
+
+        <View style="@style/style_line_10" />
+
+        <com.imasports.pos.widget.CustomInfoEditTextView
+            android:id="@+id/et_member_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/space_10"
+            app:cie_edit_hint="@string/memaber_phone_hint"
+            app:cie_edit_text_inputtype="number"
+            app:cie_edit_text_length="11"
+            app:cie_edit_textcolor="@color/gary_82"
+            app:cie_editable="true"
+            app:cie_mandatory_visibility="visible"
+            app:cie_prompt_text="手机号码"
+            app:cie_show_arrow="false" />
+
+        <View style="@style/style_line_10" />
+
+        <!--会员性别-->
+        <LinearLayout
+            android:id="@+id/ll_member_sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_10dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@mipmap/ic_star"
+                android:drawablePadding="@dimen/space_5"
+                android:text="性别"
+                android:textSize="@dimen/text_size_16sp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:padding="@dimen/space_5">
+
+                <TextView
+                    android:id="@+id/tv_ma"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:drawableLeft="@drawable/rb_select"
+                    android:drawablePadding="@dimen/space_8"
+                    android:text="@string/male"
+                    android:textSize="@dimen/text_size_16sp" />
+
+                <TextView
+                    android:id="@+id/tv_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:background="@color/white"
+                    android:checked="false"
+                    android:drawableLeft="@drawable/rb_select"
+                    android:drawablePadding="@dimen/space_8"
+                    android:text="@string/female"
+                    android:textSize="@dimen/text_size_16sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <com.imasports.pos.widget.CustomInfoEditTextView
+            android:id="@+id/tv_member_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_6"
+            android:padding="@dimen/space_10"
+            app:cie_edit_hint="@string/memaber_weight_hint"
+            app:cie_edit_textcolor="@color/gary_82"
+            app:cie_editable="false"
+            app:cie_mandatory_visibility="invisible"
+            app:cie_mode="HEIGHT"
+            app:cie_prompt_text="身高"
+            app:cie_show_arrow="true" />
+
+        <View style="@style/style_line_10" />
+
+        <com.imasports.pos.widget.CustomInfoEditTextView
+            android:id="@+id/tv_member_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/space_10"
+            app:cie_edit_hint="@string/memaber_weight_hint"
+            app:cie_edit_textcolor="@color/gary_82"
+            app:cie_editable="false"
+            app:cie_mandatory_visibility="invisible"
+            app:cie_mode="WEIGHT"
+            app:cie_prompt_text="体重"
+            app:cie_show_arrow="true" />
+
+        <View style="@style/style_line_10" />
+
+        <com.imasports.pos.widget.CustomInfoEditTextView
+            android:id="@+id/tv_member_brithday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/space_10"
+            app:cie_edit_hint="@string/memaber_weight_hint"
+            app:cie_edit_textcolor="@color/gary_82"
+            app:cie_editable="false"
+            app:cie_mandatory_visibility="invisible"
+            app:cie_mode="BIRTHDAY"
+            app:cie_prompt_text="生日"
+            app:cie_show_arrow="true" />
+
+
+        <View style="@style/style_line_10" />
+
+        <!--会员地址-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_view_size_nn">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   地址"
+                android:textColor="@color/gray_4c4c4c"
+                android:textSize="@dimen/text_size_16sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_10"
+                android:background="@drawable/address_bg">
+
+                <com.example.framwork.widget.limitededittext.LimitedEditText
+                    android:id="@+id/et_theme_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:gravity="left|top"
+                    android:hint="@string/memaber_address_hint"
+                    android:inputType="text|textMultiLine"
+                    android:minLines="5"
+                    android:padding="@dimen/space_5"
+                    android:textColor="@color/gary_82"
+                    android:textColorHint="@color/hint_d9"
+                    android:textSize="14sp"
+                    app:formatter="%s/100"
+                    app:limitCount="100"
+                    app:warningFontColor="@color/gary_82"
+                    app:wordCountTextView="@+id/countTextView" />
+
+
+                <TextView
+                    android:id="@+id/countTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/et_theme_content"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginRight="15dp"
+                    android:padding="5dp"
+                    android:textSize="@dimen/font_size_12" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View style="@style/style_line_10" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_member_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_red_rectangle"
+        android:text="@string/send_card"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_20sp" />
+
+</LinearLayout>

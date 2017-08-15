@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <!--会员姓名-->
+    <ImageView
+        android:id="@+id/iv_mandatory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/space_5"
+        android:src="@mipmap/ic_star" />
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/memeber_name"
+        android:textSize="@dimen/text_size_16sp" />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_content"
+            style="@style/member_tv"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:gravity="right"
+            android:textSize="@dimen/text_size_16sp" />
+
+        <EditText
+            android:id="@+id/et_info"
+            style="@style/member_tv"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:gravity="right"
+            android:textSize="@dimen/text_size_16sp" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_5"
+        android:src="@mipmap/vip_arrow" />
+
+</LinearLayout>

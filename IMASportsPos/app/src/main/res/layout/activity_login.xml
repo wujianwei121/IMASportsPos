@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity_launcher_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:paddingBottom="@dimen/margin_15dp"
+        android:text="@string/copyright"
+        android:visibility="invisible"
+        android:textColor="@color/gary_82" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="40dp"
+        android:paddingLeft="@dimen/padding_20dp"
+        android:paddingRight="@dimen/padding_20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/lanch_log" />
+
+        <LinearLayout
+            android:id="@+id/input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.example.framwork.widget.CustomerClearEditText
+                android:id="@+id/et_store_name"
+                style="@style/style_login_et"
+                android:drawableLeft="@mipmap/login_store"
+                android:hint="@string/login_hint_shh"
+                android:imeOptions="actionNext"
+                android:textSize="@dimen/text_size_16sp"
+                app:iconClear="@drawable/login_clear_btn" />
+
+            <View style="@style/style_line_10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.example.framwork.widget.CustomerClearEditText
+                android:id="@+id/et_user_acount"
+                style="@style/style_login_et"
+                android:drawableLeft="@mipmap/login_acount"
+                android:hint="@string/login_hint_gh"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:textSize="@dimen/text_size_16sp"
+                app:iconClear="@drawable/login_clear_btn" />
+
+            <View style="@style/style_line_10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.example.framwork.widget.CustomerClearEditText
+                android:id="@+id/et_pwd"
+                style="@style/style_login_et"
+                android:drawableLeft="@mipmap/login_pwd"
+                android:hint="@string/login_hint_pwd"
+                android:imeOptions="actionGo"
+                android:inputType="textPassword"
+                android:textSize="@dimen/text_size_16sp"
+                app:iconClear="@drawable/login_clear_btn" />
+
+            <View style="@style/style_line_10" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_view_size_l"
+            android:background="@drawable/btn_login"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_net_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/padding_size_10dp"
+            android:text="@string/net_setting"
+            android:textColor="@color/gray_98"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</RelativeLayout>

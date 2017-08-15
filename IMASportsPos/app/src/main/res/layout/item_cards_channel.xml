@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/space_10"
+    android:background="@drawable/round_10_white_bg_grey_stroke"
+    android:orientation="vertical"
+    android:padding="@dimen/space_15">
+
+        <TextView
+            android:id="@+id/tv_course_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textSize="@dimen/font_size_18"
+            tools:text="课程名称课程名称课程名称课程名称课程名称课程名称课程名称" />
+
+    <TextView
+        android:id="@+id/tv_surplus_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_10"
+        tools:text="剩余：100次" />
+
+    <TextView
+        android:id="@+id/tv_cards_term"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_10"
+        tools:text="有效期：2017.0101-2018.01.01" />
+</LinearLayout>

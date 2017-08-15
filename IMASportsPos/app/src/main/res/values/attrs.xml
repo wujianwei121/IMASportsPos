@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GifView">
+        <attr name="gif" format="reference" />
+        <attr name="paused" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CustomTheme">
+        <attr name="gifViewStyle" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomInfoEditStyle">
+        <attr name="cie_prompt_text" format="string" />
+        <attr name="cie_prompt_textcolor" format="reference" />
+        <attr name="cie_edit_text" format="string" />
+        <attr name="cie_edit_text_length" format="integer" />
+        <attr name="cie_edit_text_inputtype" format="enum">
+            <enum name="number" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="cie_edit_textcolor" format="reference" />
+        <attr name="cie_edit_hint" format="string" />
+        <attr name="cie_show_arrow" format="boolean" />
+        <attr name="cie_mandatory_visibility" format="enum">
+            <enum name="gone" value="0" />
+            <enum name="visible" value="1" />
+            <enum name="invisible" value="2" />
+        </attr>
+        <attr name="cie_editable" format="boolean" />
+        <!--设置类型-->
+        <attr name="cie_mode" format="reference">
+            <enum name="BIRTHDAY" value="1" />
+            <enum name="WEIGHT" value="2" />
+            <enum name="HEIGHT" value="3" />
+        </attr>
+    </declare-styleable>
+</resources>

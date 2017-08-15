@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ProgressActivity">
+        <attr name="loadingProgressBarWidth" format="dimension" />
+        <attr name="loadingProgressBarHeight" format="dimension" />
+        <attr name="loadingBackgroundColor" format="color" />
+        <attr name="emptyImageWidth" format="dimension" />
+        <attr name="emptyImageHeight" format="dimension" />
+        <attr name="emptyTitleTextSize" format="dimension" />
+        <attr name="emptyContentTextSize" format="dimension" />
+        <attr name="emptyTitleTextColor" format="color" />
+        <attr name="emptyContentTextColor" format="color" />
+        <attr name="emptyBackgroundColor" format="color" />
+        <attr name="errorImageWidth" format="dimension" />
+        <attr name="errorImageHeight" format="dimension" />
+        <attr name="errorTitleTextSize" format="dimension" />
+        <attr name="errorContentTextSize" format="dimension" />
+        <attr name="errorTitleTextColor" format="color" />
+        <attr name="errorContentTextColor" format="color" />
+        <attr name="errorButtonTextColor" format="color" />
+        <attr name="errorButtonBackgroundColor" format="reference" />
+        <attr name="errorBackgroundColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="TagView">
+        <attr name="lineMargin" format="dimension" />
+        <attr name="tagMargin" format="dimension" />
+        <attr name="textPaddingLeft" format="dimension" />
+        <attr name="textPaddingRight" format="dimension" />
+        <attr name="textPaddingTop" format="dimension" />
+        <attr name="textPaddingBottom" format="dimension" />
+    </declare-styleable>
+    <!--自定义导航按钮属性-->
+    <declare-styleable name="CommonTitle">
+        <attr name="left_res" format="reference" />
+        <attr name="center_txt" format="string" />
+        <attr name="right_res" format="reference" />
+        <attr name="conter_res" format="reference" />
+        <attr name="center_txt_color" format="color" />
+        <attr name="right_txt" format="string" />
+        <attr name="right_txt_color" format="color" />
+        <attr name="extra_txt" format="string" />
+        <attr name="left_txt" format="string" />
+        <attr name="right_txt_bg" format="reference" />
+        <attr name="title_bg" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="AutoTitle">
+        <attr name="titleLeftpadding" format="dimension|reference" />
+        <attr name="titleRightpadding" format="dimension|reference" />
+
+        <attr name="titleLeftText" format="string|reference" />
+        <attr name="titleLeftTextSize" format="dimension|reference" />
+        <attr name="titleLeftTextColor" format="color|reference" />
+        <attr name="titleLeftDrawable" format="reference" />
+        <attr name="titleLeftAppearance" format="reference" />
+
+        <attr name="titleCenterText" format="string|reference" />
+        <attr name="titleCenterTextSize" format="dimension|reference" />
+        <attr name="titleCenterTextColor" format="color|reference" />
+        <attr name="titleCenterDrawable" format="reference" />
+        <attr name="titleCenterAppearance" format="reference" />
+
+        <attr name="titleRightText" format="string|reference" />
+        <attr name="titleRightTextSize" format="dimension|reference" />
+        <attr name="titleRightTextColor" format="color|reference" />
+        <attr name="titleRightDrawable" format="reference" />
+        <attr name="titleRightAppearance" format="reference" />
+
+        <attr name="titleLeftView" format="reference" />
+        <attr name="titleRightView" format="reference" />
+        <attr name="titleCenterView" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="LimitedEditText">
+        <attr name="formatter" format="string" />
+        <attr name="limitCount" format="string" />
+        <attr name="wordCountTextView" format="reference" />
+        <attr name="warningFontColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="MarqueeViewStyle">
+        <attr name="mvInterval" format="integer|reference" />
+        <attr name="mvAnimDuration" format="integer|reference" />
+        <attr name="mvTextSize" format="dimension|reference" />
+        <attr name="mvTextColor" format="color|reference" />
+    </declare-styleable>
+    <declare-styleable name="MaxHeightView">
+        <attr name="mhv_HeightRatio" format="reference|float" />
+        <attr name="mhv_HeightDimen" format="reference|dimension" />
+    </declare-styleable>
+    <declare-styleable name="ClearEditText">
+        <!-- 清除按钮的图标 -->
+        <attr name="iconClear" format="reference" />
+        <attr name="et_bg_n" format="reference" />
+        <attr name="et_bg_s" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="StepsViewIndicator">
+        <attr name="numOfSteps" format="integer" />
+    </declare-styleable>
+</resources>

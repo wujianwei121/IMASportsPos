@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">矮马健身</string>
+    <string name="copyright">\n©南京商托斯信息科技有限公司</string>
+
+    <string name="version_name">v%1$s</string>
+    <string name="button_cancel">取&#160;&#160;消</string>
+    <string name="button_confirm">确&#160;&#160;定</string>
+    <string name="dialog_oper_title">操作提醒</string>
+    <string name="dialog_wait_msg">正在网络请求,请耐心等待&#8230;</string>
+    <string name="can_not_find_version_name">未发现版本信息</string>
+    <string name="sex">性别</string>
+    <string name="height">身高</string>
+    <string name="weight">体重</string>
+    <string name="birthday">生日</string>
+    <string name="address">地址</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <!--login-->
+    <string name="login_hint_shh">请输入商户号</string>
+    <string name="login_hint_gh">请输入工号</string>
+    <string name="login_hint_pwd">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="net_setting">网络设置</string>
+    <!--会员登记-->
+    <string name="send_card">发卡</string>
+    <string name="memeber_name">用户姓名</string>
+    <string name="memaber_phone">手机号码</string>
+    <string name="memaber_phone_hint">请输入手机号码</string>
+    <string name="memaber_name_hint">请输入用户姓名</string>
+    <string name="memaber_height_hint">请选择身高</string>
+    <string name="memaber_weight_hint">请选择体重</string>
+    <string name="memaber_birthday_hint">请选择生日</string>
+    <string name="memaber_address_hint">请输入地址(不超过100字)</string>
+    <string name="memaber_reg_success">会员登记成功啦!</string>
+    <!--课程销售-->
+    <string name="course_member_name">会员名称:&#160;&#160; %1$s</string>
+    <string name="course_member_change">切换</string>
+    <string name="settle_accounts">去结算</string>
+    <string name="total_price">合计:</string>
+    <string name="search_course_hint">请输入课程名称或教练名称</string>
+    <string name="search_member_hint">请输入卡号或手机号</string>
+    <string name="select_course_spec">选择规格:</string>
+    <string name="cards_use_num_hint">单周最多使用&#160;%1$s&#160;次，剩余&#160;%2$s&#160;次</string>
+    <string name="reminder">1.充值后可在矮马购买课程或刷卡进入健身房消费;\n2.充值金额有效期为充值之日起，到余额用完之日位置;\n3.充值后不可提现,不可退款</string>
+</resources>

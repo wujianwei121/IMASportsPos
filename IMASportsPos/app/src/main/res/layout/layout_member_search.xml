@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/space_5"
+    android:layout_marginLeft="@dimen/space_10"
+    android:layout_marginRight="@dimen/space_10"
+    android:layout_marginTop="@dimen/space_5"
+    android:background="@drawable/round_10_white_bg_grey_stroke"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/space_10">
+
+
+    <ImageView
+        android:id="@+id/iv_member_scanning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/ic_sm" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="@dimen/space_22"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/space_10"
+        android:layout_marginRight="@dimen/space_10"
+        android:background="@color/gray_99" />
+
+
+    <EditText
+        android:id="@+id/et_member_search"
+        style="@style/member_tv"
+        android:layout_marginRight="@dimen/space_10"
+        android:layout_weight="1"
+        android:hint="@string/search_member_hint"
+        android:imeOptions="actionSearch"
+        android:inputType="number"
+        android:maxLength="18" />
+
+    <ImageView
+        android:id="@+id/order_num_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/tv_member_search"
+        android:padding="@dimen/quick_tab_padding_size_5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/login_clear_btn"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_member_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_serarch" />
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--实线样式-->
+    <style name="style_line_10">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:background">@color/light_grey</item>
+    </style>
+    <!--登录页面输入框属性-->
+    <style name="style_login_et">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:drawablePadding">@dimen/padding_5dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/gary_82</item>
+        <item name="android:textColorHint">@color/hint_d9</item>
+        <item name="android:padding">@dimen/padding_10dp</item>
+    </style>
+
+    <style name="member_tv">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:drawablePadding">@dimen/padding_5dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/gary_82</item>
+        <item name="android:textColorHint">@color/gray_9b</item>
+        <item name="android:textSize">@dimen/font_size_16</item>
+        <item name="android:padding">@dimen/space_5</item>
+    </style>
+
+</resources>
