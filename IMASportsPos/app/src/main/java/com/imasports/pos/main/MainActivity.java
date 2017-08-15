@@ -75,10 +75,10 @@ public class MainActivity extends BaseNoTitleActivity implements AdapterView.OnI
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         FuncItemBean funcItemBean = (FuncItemBean) parent.getAdapter().getItem(position);
         switch (funcItemBean.getFuncId()) {
-            case FusionUnitType.FuncType.FUNC_MEMBER_ENTER:
+            case FusionUnitType.FuncType.FUNC_MEMBER_ENTER://会员登记
                 Goto.toMemberRegActivity(context);
                 break;
-            case FusionUnitType.FuncType.FUNC_COURSE_SALE:
+            case FusionUnitType.FuncType.FUNC_COURSE_SALE://课程销售
                 Goto.toCourseListActivity(context);
                 break;
         }
